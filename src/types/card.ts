@@ -4,7 +4,8 @@ export interface Card {
     title: string;
     score: number;
     by: string;
-    time: string;
+    time: number;
     type: string;
     url: string;
+    kids?: number[];
 }
